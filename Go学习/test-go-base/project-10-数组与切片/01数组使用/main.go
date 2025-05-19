@@ -25,6 +25,7 @@ func main() {
 	fmt.Printf("totalWeigh = %v, avWeight = %v\n", totalWeigh, avWeight)
 
 	// 数组地址就是数组第一个元素地址
+	fmt.Printf("arr类型 = %T\n", arr)
 	fmt.Printf("arr地址 = %p\n", &arr)
 	fmt.Printf("arr[0]地址 = %p\n", &arr[0])
 	fmt.Printf("arr[1]地址 = %p\n", &arr[1])
